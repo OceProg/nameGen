@@ -16,7 +16,7 @@ object nameGenerator {
     pw.write("Vcv\n_______\n")
     Vcv.map { Vcv => pw.write(Vcv+"\n") }
     pw.write("\nCvc\n_______\n")
-    Vcv.map { Cvc => pw.write(Cvc+"\n") }
+    Cvc.map { Cvc => pw.write(Cvc+"\n") }
     pw.close
     println(Vcv.size+" "+Cvc.size)
   } 
